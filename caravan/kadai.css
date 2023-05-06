@@ -1,0 +1,19 @@
+*
+.main-visual {
+  width: 100%;
+  height: 300px;
+  background-image: url(img/mv.jpg);
+  background-size: cover;
+  background-position: center;
+.fab {
+  font-size: 32px;
+}
+.position {  position: absolute;
+  top: 100px;
+  right: 40px;
+}
+@media screen and (max-width: 768px) {
+  .social i {
+    color: blue;
+  }
+}
